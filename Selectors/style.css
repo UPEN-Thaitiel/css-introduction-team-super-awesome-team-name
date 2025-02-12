@@ -1,1 +1,67 @@
-/* Write your code here: */
+/* Estilo general del cuerpo */
+body {
+    font-family: "Libre Baskerville", serif; /*fuente  */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    color: purple;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Día de la semana */
+h2 {
+    color: blueviolet;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la lista */
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los parrafos con la clase .done */
+p.done {
+    color: brown;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Lista dentro de .box */
+.box .list {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Elementos de la lista */
+.box .list li {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: blue; /* Por defecto los elementos son azules */
+}
+
+/* elementos de la clase (.done)*/
+.box .list li.done {
+    color: green;   
+}
+
+/* Otros ítems fuera del contenedor */
+ul p.done {
+    font-size: 1rem;
+    margin-left: 20px;
+    color: black;
+}
+
+/* Cita motivacional */
+body > p:last-of-type {
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

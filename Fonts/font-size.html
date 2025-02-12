@@ -4,38 +4,47 @@
     <meta charset="UTF-8" />
     <title>Font-Size</title>
     <style>
+
+      html {
+        font-size: 30px;
+      }
+
+      body {
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 18px; /* 18px es el tamaño base */
+        margin: 5%;
+      }
+
       #pixel {
         font-size: 20px;
       }
 
       #point {
-        font-size: 20pt;
-      }
-
-      #em {
-        font-size: 1em;
-      }
-
-      #rem {
-        font-size: 1rem;
+        font-size: 20pt; /* Aproximadamente 26.67px */
       }
 
       footer {
-        font-size: 12pt;
+        font-size: 12pt; /* Aproximadamente 16px */
       }
 
-      html {
-        font-size: xx-large;
+      #em {
+        font-size: 1em; /* Igual al tamaño de la fuente del footer (16px) */
+      }
+
+      #rem {
+        font-size: 1rem; /* Igual al tamaño raíz: 30px */
       }
     </style>
   </head>
 
   <body>
-    <p id="pixel">1 Pixel is 1/96 of an Inch</p>
-    <p id="point">1 Point is 1/72 of an Inch</p>
+    <h1>Font Size Units Explained</h1>
+    <p id="pixel">1 Pixel is 1/96 of an Inch (20px here)</p>
+    <p id="point">1 Point is 1/72 of an Inch (20pt ≈ 26.67px)</p>
     <footer>
-      <p id="em">1em is 100% the size of the parent element</p>
-      <p id="rem">1rem is 100% the size of the root element</p>
+      <p id="em">1em is 100% the size of the parent element (16px in footer)</p>
+      <p id="rem">1rem is 100% the size of the root element (30px)</p>
     </footer>
   </body>
 </html>
