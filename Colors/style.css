@@ -1,0 +1,20 @@
+#red{
+    color: #ff0000;
+    
+}
+#blue{
+    color: #0800ff;
+}
+#orange{
+    color: #ea9e05;
+}
+#green{
+    color: #00ff15;
+}
+#yellow{
+    color: #eeff00;
+}
+img {
+    width: 200px; 
+    height: 200px; 
+}
